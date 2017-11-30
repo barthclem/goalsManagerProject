@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.barthclem.goalsmanager.GoalReminderSetting">
+
+    <TextView
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/clock"
+
+        android:gravity="center"
+        android:text="Reminder"
+
+        android:textSize="23sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+   <Switch
+       android:layout_marginTop="40dp"
+       android:text="Switch Off the Reminder   "
+       android:textSize="20dp"
+       android:id="@+id/switchButton"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/morning"
+            android:text="Goals Reminder"
+            android:textSize="18sp"
+            android:textColor="@color/fonts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"/>
+        <Button
+            android:id="@+id/morningTimeButton"
+            android:text="12:30"
+            android:layout_marginRight="20dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/evening"
+            android:text="Evaluation Reminder"
+            android:textSize="18sp"
+            android:textColor="@color/fonts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"/>
+        <Button
+            android:id="@+id/eveningTimeButton"
+            android:text="12:30"
+            android:layout_marginRight="20dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.4"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

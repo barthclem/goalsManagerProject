@@ -1,0 +1,73 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.barthclem.goalsmanager.LoginFrag">
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/icon"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/title"
+            android:textSize="30sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:layout_gravity="center"/>
+
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_below="@id/title"
+            android:layout_width="380dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Username"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/password"
+            android:layout_below="@id/username"
+            android:layout_width="380dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:id="@+id/lostPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ForgotPassword"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:focusableInTouchMode="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/password"/>
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_below="@id/lostPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:text="@string/loginButton"
+            android:textSize="20sp"
+            android:onClick="onClickLogin"
+            android:textColor="@color/common_signin_btn_dark_text_pressed"
+            android:background="@color/button"/>
+
+
+
+</LinearLayout>

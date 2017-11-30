@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">GoalsManager</string>
+    <string name="title">Log In</string>
+    <string name="ForgotPassword">Forgot Password?</string>
+    <string name="loginButton">Log In</string>
+    <string name="registerButton">Register</string>
+    <string name="welcomeTitle">WELCOME</string>
+    <string name="newUserLink"></string>
+    <string name="existingUser"></string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="security_question">Security Question</string>
+    <string name="answer_to_security_qustion">Answer</string>
+    <string name="enter_app">Enter App</string>
+    <string name="recoverPassword">Recover Password</string>
+    <string name="change_fpassword">Change Password</string>
+    <string name="change_lost_password">Set Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">new Password</string>
+    <string name="confirm_new_password">confirm new Password</string>
+    <string-array name="security_Questions">
+        <item name="question1">What is your mother maiden name?</item>
+        <item name="question1">What is your favorite color?</item>
+        <item name="question3">What is the last alphabet of your last name?</item>
+        <item name="question4">The Food you hate the most</item>
+    </string-array>
+    
+    <string name="about">
+        Focus Mate
+        It Helps you plan your time, Set and achieve goals. At the end of each task completed it work calculate your gross performance index
+        based on the priority and performance on the task and the time taken to complete task relative to the set date to achieve the task.
+
+        the app is so generic in its approach such that
+        - it is for those in the corporate world
+        - it is for those in the Business environ
+        - it is for students
+        - it is also for university students in calculating CGPA
+        - it is for Everyone.
+
+    </string>
+
+    <string name="priority">%</string>
+    <string name="task_title">complete focus mate </string>
+    <string name="delete_item">#</string>
+    <string name="edit_task">!</string>
+    <string name="add_subtask">+</string>
+    <string name="duration">23days Remaining</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_page">MainPage</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="goaltitleinput">goalTitleInput</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="very_important">Very Important</string>
+    <string name="urgent">Urgent</string>
+    <string name="hurry">Hurry</string>
+    <string name="very_soon">Very Soon</string>
+    <string name="no_time">No time</string>
+    <string name="focus_mate">Focus Mate</string>
+    <string name="focusmate_com">focusmate.com</string>
+    <string name="your_rating_is_78">Your Rating is 78%</string>
+
+    <!--Handling Errors -->
+
+</resources>

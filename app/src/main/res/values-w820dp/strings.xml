@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="urgent">Urgent</string>
+    <string name="very_soon">Very Soon</string>
+    <string name="no_time">No time</string>
+</resources>

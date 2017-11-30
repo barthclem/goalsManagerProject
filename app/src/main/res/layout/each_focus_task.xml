@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="#ffe0b2"
+
+   >
+
+
+ <android.support.v7.widget.CardView
+     android:layout_width="match_parent"
+     app:cardCornerRadius="10dp"
+     android:layout_marginTop="4dp"
+     android:layout_marginBottom="10dp"
+     android:layout_height="wrap_content">
+     <TextView
+             android:id="@+id/taskTitle"
+             android:textColor="#ca09160e"
+             android:textSize="20sp"
+             android:text="@string/task_title"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+
+             />
+ </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/taskDuration"
+            android:text="@string/duration"
+            android:layout_width="match_parent"
+            android:textColor="#FF56"
+            android:padding="@dimen/task_text_padding"
+            android:textSize="18dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+
+            />
+
+
+
+
+
+</LinearLayout>
+
+
+

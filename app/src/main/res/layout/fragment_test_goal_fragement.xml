@@ -1,0 +1,66 @@
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/highScores"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+        android:background="#d4dddf"
+tools:context="com.example.barthclem.goalsmanager.testGoalFragement">
+
+<!-- TODO: Update blank fragment layout -->
+
+<TextView
+    android:id="@+id/rating"
+    android:text="@string/your_rating_is_78"
+    android:fontFamily="serif-monospace"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center"
+    android:shadowRadius="23"
+    android:background="#00e676"
+    android:textSize="17sp"
+    android:textColor="#FF5633"
+    android:layout_marginBottom="10dp"
+    android:lines="56"
+    />
+    <!--<Button
+        android:id="@+id/graph"
+        android:text="display Graph"
+        android:layout_below="@id/rating"
+        android:textSize="23sp"
+        android:textColor="@color/common_signin_btn_dark_text_pressed"
+        android:background="@color/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>-->
+
+    <LinearLayout
+        android:layout_below="@id/rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp">
+
+<ListView
+    android:id="@+id/testGoals"
+    android:layout_below="@id/rating"
+    android:cacheColorHint="#e7c5c7a5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:dividerHeight="2dp"
+    android:divider="@null"
+    ></ListView>
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/addButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:backgroundTint="#faf7f6"/>
+
+</RelativeLayout>

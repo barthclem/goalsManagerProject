@@ -1,0 +1,110 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.barthclem.goalsmanager.Registration">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:src="@drawable/goals"
+        android:layout_gravity="center"
+        />
+     <android.support.design.widget.TextInputLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+
+
+    <EditText
+        android:id="@+id/username"
+        android:hint="@string/username"
+        android:layout_margin="10dp"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="43dp"
+        android:gravity="center"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/email"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:layout_margin="10dp"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="43dp"
+        android:gravity="center"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:layout_margin="10dp"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="43dp"
+        android:gravity="center"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:hint="@string/confirmPassword"
+        android:inputType="textPassword"
+        android:layout_margin="10dp"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="43dp"
+        android:gravity="center"/>
+    </android.support.design.widget.TextInputLayout>
+    <Spinner
+        android:id="@+id/securityQuestionSpinner"
+        android:layout_margin="10dp"
+        android:entries="@array/security_Questions"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="43dp"
+
+        android:background="@color/colorTabTint"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/securityAnswer"
+        android:hint="@string/answer_to_security_qustion"
+        android:layout_margin="10dp"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="43dp"
+        android:gravity="center"/>
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="20sp"
+        android:text="@string/registerButton"
+        android:textColor="@color/common_signin_btn_dark_text_pressed"
+        android:background="@color/button"
+
+        />
+
+
+</LinearLayout>
+    </ScrollView>

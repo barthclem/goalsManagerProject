@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/add_task"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Add Task"
+            android:clickable="true"
+            />
+        <item
+            android:id="@+id/taskView"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Task View"
+            android:clickable="true"/>
+        <item
+            android:id="@+id/reminder"
+            android:icon="@drawable/clock"
+            android:title="Reminder"
+            android:clickable="true"
+            />
+        <item
+            android:id="@+id/show_graph"
+            android:icon="@drawable/table"
+            android:title="Show Graph"
+            android:clickable="true"/>
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/action_settings"
+                android:icon="@drawable/settings"
+                android:title="Settings"
+                android:clickable="true"/>
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/user1"
+                android:title="About"
+                android:clickable="true"
+                />
+        </menu>
+    </item>
+</group>
+</menu>

@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdfdfe"
+    android:orientation="vertical"
+    tools:context="com.example.barthclem.goalsmanager.StartPage">
+
+
+
+
+
+    <ImageView
+        android:id="@+id/imageStart"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:src="@drawable/goals"
+        android:layout_gravity="center"
+        />
+    <LinearLayout
+        android:layout_margin="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="#03000000">
+
+    <!--<TextView
+        android:id="@+id/start"
+        android:layout_below="@id/imageStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:gravity="center_horizontal"
+        android:textSize="50sp"
+        android:textColor="@color/fonts"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+
+        />-->
+
+    <EditText
+        android:id="@+id/spassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+       android:layout_gravity="center"
+        android:padding="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:textSize="20sp"
+        android:gravity="center"
+
+        />
+    <Button
+        android:id="@+id/userButton"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spassword"
+        android:padding="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="20sp"
+        android:text="@string/enter_app"
+        android:background="@drawable/circle"
+        android:textColor="@color/common_signin_btn_dark_text_pressed"
+        />
+    <Button
+        android:id="@+id/forgotPasswordClick"
+        android:layout_width="300dp"
+        android:layout_height="58dp"
+        android:background="@null"
+        android:text="@string/ForgotPassword"
+        android:textColor="@color/button"
+        android:layout_gravity="center"
+        android:textSize="23sp"
+        android:padding="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        />
+    </LinearLayout>
+
+
+</LinearLayout>

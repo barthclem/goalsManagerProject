@@ -1,0 +1,52 @@
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/highScores"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:weightSum="1"
+
+android:orientation="vertical"
+ android:backgroundTint="@color/colorBackground">
+
+
+<TextView
+    android:id="@+id/rating"
+    android:textColor="@color/fonts"
+    android:background="#47d7ffa7"
+    android:text="Your Rating is 78%"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:textSize="30sp"
+    android:layout_marginBottom="10dp"
+    />
+<LinearLayout
+    android:layout_below="@id/rating"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+<ListView
+    android:layout_marginTop="10dp"
+    android:id="@+id/testGoals"
+    android:layout_below="@id/rating"
+    android:cacheColorHint="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:dividerHeight="10dp"
+    android:divider="@color/colorBackground"
+    />
+</LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/addButton"
+        android:background="@color/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom|right"
+        android:src="@drawable/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:backgroundTint="#FF5534" />
+
+</RelativeLayout>

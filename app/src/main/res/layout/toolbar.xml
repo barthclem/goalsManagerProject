@@ -1,0 +1,11 @@
+<android.support.v7.widget.Toolbar
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="4dp"
+    android:titleTextColor="@color/common_signin_btn_dark_text_pressed"
+    android:background="@color/colorPrimary"
+    local:theme="@style/Theme.AppCompat.Light.NoActionBar"
+    local:popupTheme="@style/Theme.AppCompat.Light"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto" />

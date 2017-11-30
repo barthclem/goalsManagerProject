@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="urgent">Urgent</string>
+    <string name="very_soon">Very Soon</string>
+    <string name="no_time">No time</string>
+    <string name="your_rating_is_78">Your Rating is 78%</string>
+</resources>

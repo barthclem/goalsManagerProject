@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.barthclem.goalsmanager">
+    <uses-sdk android:minSdkVersion="16"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/goals"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoaderPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".Welcome" />
+        <activity android:name=".Tester" />
+        <activity android:name="org.achartengine.GraphicalActivity"/>
+
+        <service
+            android:name=".GoalAlarmService"
+            android:enabled="true" />
+
+        <receiver android:process=":remote"
+            android:name=".GoalsAlarmReceiver"
+            />
+
+        <provider
+            android:name=".AddContent"
+            android:authorities="com.example.provider.FocusMateDataBase" />
+        <provider
+            android:name=".AddSubContent"
+            android:authorities="com.example.provider.SubGoalsDataBase" />
+
+        <activity android:name=".WhatisYourFocus"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg"
+            android:text="Perfect"
+            android:textSize="23sp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_margin="10dp"
+            android:text="Good job"
+            android:textSize="23sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_margin="10dp"
+            android:text="Average"
+            android:textSize="23sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_margin="10dp"
+            android:text="Just There"
+            android:textSize="23sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_margin="10dp"
+            android:text="Barely done"
+            android:textSize="23sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </RadioGroup>
+</LinearLayout>

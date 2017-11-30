@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.barthclem.goalsmanager.AddGoal">
+
+
+    <EditText
+        android:id="@+id/addTitleText"
+        android:hint="goal title"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/addDurationButton"
+        android:text="due date"
+        android:textColor="@color/common_signin_btn_dark_text_pressed"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:background="@color/button"
+
+        android:layout_width="match_parent"
+        android:layout_height="43dp" />
+
+    <Button
+        android:id="@+id/setPriorityButton"
+        android:text="Priority"
+        android:textColor="@color/common_signin_btn_dark_text_pressed"
+        android:textSize="20sp"
+        android:background="@color/button"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:textAlignment="gravity"
+         />
+
+    <!--<Button
+        android:id="@+id/addNewGoalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="20sp"
+        android:text="@string/registerButton"/>-->
+
+</LinearLayout>
